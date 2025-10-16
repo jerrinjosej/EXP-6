@@ -1,80 +1,55 @@
+# EXP-6
+EXP No. :6 			CHARACTERISTICS M OF LVDT
+AIM:To measure output voltage w.r.t the displacement of the core on the LVDT kit and
+find the graphical relationship between the two.
 
-EXP. NO. 5. 		ZENER DIODE CHARACTERISTICS AND ZENER AS VOLTAGE REGULATOR
+APPARATUS: - LVDT kit, Multimeter
 
-AIM
-. To find the Zener Break down voltage regulation condition.
+THEORY: - LVDT is basically a mutual inductance type transformer with variable coupling between the primary and two secondary coils. It is equivalent to E.Pick off in its operation except the reluctance of magnetic path is mostly due to air path. Uniformly wound over a certain length of transducer and two identical secondary coil systematically wound on either side of the primary coils and away from center. The iron rod is free to move inside the coil in either direction from the null point when primary coil is excitedly AC supply the induced emf of secondary are equal to each other with the core lying in null position. The secondary are connected in series with but in phase opposition so that resultant output voltage is zero.Displacement of core in either direction from the null position results in output voltage as read by an AC rms voltmeter and it is observed that there is a residual voltage at the null position. Due to capacitance coupling between primary and secondary and the characteristics of a linear over a limited  displacement.
 
-APPARATUS:
+DIAGRAM:
+<img width="712" height="609" alt="Screenshot 2025-10-11 195237" src="https://github.com/user-attachments/assets/197bc688-10ec-4964-8156-457651fb4c6b" />
 
-S.No	Name of the Apparatus	Range	Quantity
-1	Zener Diode (IN 4735A)		1
-2	Resistors	1KΩ, 10KΩ	1
-3	Regulated Power Supply	(0-30)V DC	1
-4	Bread Board		1
-5	Digital Ammeter	(0-200)mA	1
-6	Digital Voltmeter	(0-20)V DC	1
-7	Connecting Wires	As Required	
-
-CIRCUIT DIAGRAM:
-
-LINE REGULATION
-<img width="1042" height="397" alt="Screenshot 2025-10-11 185729" src="https://github.com/user-attachments/assets/4dce7387-e834-498b-856b-c0d645ced0f5" />
-
-LOAD REGULATION
-
-<img width="835" height="308" alt="Screenshot 2025-10-11 190125" src="https://github.com/user-attachments/assets/82750f7f-8cd4-457a-ad38-7dc358f955a1" />
+CIRCUIT DIAGRAM
+<img width="1103" height="646" alt="Screenshot 2025-10-11 195345" src="https://github.com/user-attachments/assets/00487b53-e6d8-4fdb-a5a4-0fdf75889de2" />
 
 
+<img width="559" height="471" alt="Screenshot 2025-10-11 195714" src="https://github.com/user-attachments/assets/c0809bf8-bcbf-4bdf-8645-8263535efe39" />
 
-THEORY:
-	
-A zener diode is heavily doped p-n junction diode, specially made to operate in the break down region. A p-n junction diode normally does not conduct when reverse biased. But if the reverse bias is increased, at a particular voltage it starts conducting heavily. This voltage is called Break down Voltage. High current through the diode can permanently damage the device To avoid high current, we connect a resistor in series with zener diode. Once the diode starts conducting it maintains almost constant voltage across the terminals what ever may be the current through it, i.e., it has very low dynamic resistance. It is used in voltage regulators.
-
-PROCEDURE:
-
-1. Connections are made as per the circuit diagram.
-2. The Regulated power supply voltage is increased in steps.
-3. The voltage across the diode (Vz.) remains almost constant although the current through the diode increases. This voltage serves as reference voltage.
-4. The zener current (lz), and the zener voltage (Vz.) are observed and then noted in the tabular form.
-4. A graph is plotted between zener current (Iz) on y-axis and zener voltage (Vz) on x-axis.
-
-OBSERVATIONS:
-
-Tabulation:
-
-LINE REGULATION
-<img width="638" height="306" alt="Screenshot 2025-10-11 194154" src="https://github.com/user-attachments/assets/4a8ecd8b-3411-4a55-8cf4-d536fd252165" />
+PROCEDURE: -
+I. Connect the multimeter at the output of kit..
+2. Set the range to a maximum value of 10 mm.
+3. More the gauge from zero to maximum of 20mm.
+4. Value and note the corresponding values of voltages in the multimeter.
+5. Plot the graph between displacement and voltages on the graph paper.
 
 
-LOAD REGULATION
-<img width="739" height="332" alt="Screenshot 2025-10-11 194200" src="https://github.com/user-attachments/assets/cad15a61-bc96-4f81-9aa3-c4d98f39f012" />
+OBSERVATION TABLE
 
+TABULATION:
 
-REGULATION CHARACTERISTICS:
+<img width="539" height="288" alt="Screenshot 2025-10-11 195721" src="https://github.com/user-attachments/assets/85db794f-99e5-4729-aa00-aefbbba50a13" />
+
+CALCULATION
+
+<img width="318" height="274" alt="Screenshot 2025-10-11 195750" src="https://github.com/user-attachments/assets/5e5fab00-c45c-432e-8ded-1267630397b2" />
 
 MODEL GRAPH
 
-LINE REGULATION
-<img width="818" height="332" alt="Screenshot 2025-10-11 194128" src="https://github.com/user-attachments/assets/4df6c00b-7230-404c-837a-dc2807e20c51" />
+POSITIVE DISPLACEMENT
 
+<img width="359" height="317" alt="Screenshot 2025-10-11 195757" src="https://github.com/user-attachments/assets/1d18a068-e808-4336-ba80-6a52b57cacfb" />
 
-LOAD REGULATION
-<img width="710" height="414" alt="Screenshot 2025-10-11 194136" src="https://github.com/user-attachments/assets/0797daf2-d431-4f19-95ac-2bf63327109a" />
+NEGATIVE DISPLACEMENT
 
-
-
-V-I & REGULATION CHARACTERISTICS:
-<img width="796" height="390" alt="Screenshot 2025-10-11 194143" src="https://github.com/user-attachments/assets/00765377-4ff5-41b4-be40-48c502cd6c9a" />
-
-<img width="848" height="429" alt="Screenshot 2025-10-11 194148" src="https://github.com/user-attachments/assets/529f806e-7440-4087-9455-007ed2af3b81" />
+<img width="402" height="372" alt="Screenshot 2025-10-11 195805" src="https://github.com/user-attachments/assets/cd1ec8e4-8527-4218-9dc1-f061ffb8abde" />
 
 
 
-PRECAUTIONS:
+PRECAUTION: -
+1. The values on the multimeter should be carefully noted.
+2. The core should be set to a maximum value of 20mm.
+3. To get the good performance from the kit, main room temperature.
+4. To check the power supply, it should be 220+!- 10% 50Hz to avoid voltage hazard.
 
-1. While doing the experiment do not exceed the ratings of the zener diode. This may lead to damage the diode.
-2. Connect voltmeter and Ammeter in correct polarities as shown in the circuit diagram.
-
-3. Do not switch ON the power supply unless you have checked the circuit connections as per the circuit diagram.
-RESULT:
-The Characteristics of Zener Break Diode Voltage Regulation from the Characteristics are Observed.
+RESULT: - LVDT was studied well and graph of displacement was linear for a particular range.
