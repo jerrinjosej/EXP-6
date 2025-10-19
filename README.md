@@ -33,6 +33,7 @@ TABULATION:
 
 
 CALCULATION
+
 <img width="433" height="826" alt="Screenshot 2025-10-19 125107" src="https://github.com/user-attachments/assets/b6331137-cc0f-4ee3-a0ff-0ff00f727c80" />
 
 
